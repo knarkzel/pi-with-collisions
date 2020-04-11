@@ -6,9 +6,9 @@ demonstrates how the amount of collisions between a block with mass $`1`$ and
 another block with mass $`100^{n - 1}`$, where $`n`$ is amount of digits 
 to compute, equals $`\Pi`$. It's written in Rust using `ggez`. To understand why
 this occurs, refer to following video: 
-[Why do colliding blocks compute pi?](https://www.youtube.com/watch?v=jsYwFizhncE).
+[Why do colliding blocks compute pi?](https://www.youtube.com/watch?v=jsYwFizhncE)
 You can also read this article: 
-[Throwing pi at a wall](https://arxiv.org/pdf/1901.06260.pdf)
+[Throwing pi at a wall](https://arxiv.org/pdf/1901.06260.pdf).
 
 ![Demonstration](./DEMO.png "Demonstration")
 
