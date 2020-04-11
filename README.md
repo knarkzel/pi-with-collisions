@@ -1,10 +1,11 @@
 # Calculating Pi with collisions
 
-This repository contains a simulation created in Rust. The simulation
-demonstrates how the amount of collisions between some block with mass $`1`$ and
-another block with mass $`100^{n - 1}`$, where $`n`$ is amount of digits wanted
+This repository contains a simulation between two elastically colliding blocks
+with different masses. The simulation
+demonstrates how the amount of collisions between a block with mass $`1`$ and
+another block with mass $`100^{n - 1}`$, where $`n`$ is amount of digits 
 to compute, equals $`\Pi`$. It's written in Rust using `ggez`. To understand why
-this is happens, refer to following video: 
+this occurs, refer to following video: 
 [Why do colliding blocks compute pi?](https://www.youtube.com/watch?v=jsYwFizhncE).
 You can also read this article: 
 [Throwing pi at a wall](https://arxiv.org/pdf/1901.06260.pdf)
