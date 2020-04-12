@@ -4,6 +4,9 @@ version = "0.1.0"
 authors = ["Knarkzel <knarkzel@cock.li>"]
 edition = "2018"
 
+[profile.dev]
+opt-level = 3
+
 [dependencies]
 ggez = "0.5.1" # A lightweight game framework for making 2D games with minimum friction, inspired by Love2D.
 mint = "0.5.4" # Math interoperability standard types

@@ -15,10 +15,28 @@ You can also read this article:
 # How to run?
 
 First install `Rustup`: [How to install?](https://www.rust-lang.org/tools/install)
-With the Rust compiler installed, run the following commands:
+With the Rust compiler installed, run the following commands (Note: running in
+release mode increases performance by tenfolds):
 
 ```shell
 git clone https://gitlab.com/knarkzel/pi-with-collisions
 cd pi-with-collisions/
-cargo run
+cargo run --release
 ```
+
+# Value table to calculate with minimum required timesteps
+
+These variables must be modified in `src/main.rs` to compute $`n`$ digits of Pi.
+
+| Digits |  Timesteps |
+|--------|------------|
+|    1.0 |        1.0 |
+|    2.0 |        1.0 |
+|    3.0 |        3.0 |
+|    4.0 |       15.0 |
+|    5.0 |      154.0 |
+|    6.0 |     1554.0 |
+|    7.0 |    15598.0 |
+|    8.0 |   156165.0 |
+|    9.0 |  1562228.0 |
+|   10.0 | 15630000.0 |

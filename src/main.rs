@@ -35,8 +35,8 @@ struct Game {
 
 impl Game {
     pub fn new(ctx: &mut Context) -> Game {
-        let digits = 4.0;
-        let timesteps = 1000.0;
+        let digits = 1.0;
+        let timesteps = 1.0;
         Game {
             blocks: vec![
                 Block::new(200.0, 250.0, 0.0, 1.0),

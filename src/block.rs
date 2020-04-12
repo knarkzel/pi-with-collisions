@@ -24,7 +24,7 @@ impl Block {
     }
     pub fn render(&self, ctx: &mut Context) -> GameResult<()> {
         let rect = graphics::Rect::new(0.0, 0.0, 64.0, 64.0);
-        let rect = graphics::Mesh::new_rectangle(ctx, graphics::DrawMode::fill(), rect, graphics::BLACK)?;
+        let rect = graphics::Mesh::new_rectangle(ctx, graphics::DrawMode::stroke(2.0), rect, graphics::BLACK)?;
         graphics::draw(
             ctx,
             &rect,
